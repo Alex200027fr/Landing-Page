@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(./Roboto-Regular.ttf);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+    background-color: #1F2937    
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.header > .title{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.header > .links{
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
