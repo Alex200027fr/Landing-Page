@@ -8,6 +8,7 @@ body {
     font-family: 'Roboto';
     background-color: #1F2937;
     margin:0;  
+    width: 900px;
 }
 
 /* header section */
@@ -42,6 +43,8 @@ a {
     flex-direction: column;
     flex: 1;
 }
+
+/* box1 section */
 
 h2{
     color: #F9FAF8;
@@ -99,8 +102,46 @@ h2{
 
 }
 
+/*box2 section */
+
+.box2 > .title{
+    text-align: center;
+    font-size: 25px;
+}
 .content > .box2{
+    display: flex;
     background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 > .boxes{
+    display: flex;
+    width: 700px ;
+    gap: 10px;
+    margin-bottom: 50px;
+    height: auto;
+}
+
+.box2 > .boxes > .big_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3px;
+    
+}
+
+.big_box > input{
+    border: 3px solid #3882F6;
+    width: 140px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+.big_box > p{
+    margin: 2px;
+    text-align: center;
 }
 
 .footer{
