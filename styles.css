@@ -9,6 +9,7 @@ body {
     background-color: #1F2937;
     margin:0;  
     width: 900px;
+    
 }
 
 /* header section */
@@ -144,6 +145,91 @@ h2{
     text-align: center;
 }
 
+/*box3 section */
+.box3 {
+    background-color: lightgray;
+    border: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.box3 > .quote{
+    width: 500px;
+}
+
+.quote > p{
+    margin: 0;
+    font-size: 22px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.box3 > .author {
+    display: flex;
+    width: 500px;
+    justify-content: flex-end;
+}
+
+.author > p{
+    margin: 0;
+    font-size: 20px;
+}
+
+/* box4 section */
+
+.box4 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.box4 > .action {
+    display: flex;
+    width: 725px;
+    background-color: #3882F6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.action > .left{
+    width: 80%;
+    padding-left: 50px;
+    color: white;
+}
+
+.action > .left > h4 {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.action > .left > p {
+    margin: 0;
+    margin-bottom: 30px;
+    margin-top: 2px;
+}
+
+.action > .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    padding-right: 30px;
+}
+
+.right > .button > button {
+    background-color: #3882F6;
+    color: white;
+    box-shadow: none;
+    border-radius: 5px;
+    padding: 2px 15px;
+    border: 2px solid white;
+}
 .footer{
     display: flex;
+    justify-content: center;
+    color: white;
+    margin: 30px;
 }
